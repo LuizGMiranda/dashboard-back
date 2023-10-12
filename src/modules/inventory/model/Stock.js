@@ -1,4 +1,4 @@
-class Stock {
+class Inventory {
 	constructor({ id, title, description, unit, amount, show }) {
 		this.id = id;
 		this.title = title;
@@ -20,10 +20,6 @@ class Stock {
 			createdAt: this.createdAt || null,
 		};
 	}
-
-	getShow() {
-		return this.show;
-	}
 }
 
-export default Stock;
+export default Inventory;
